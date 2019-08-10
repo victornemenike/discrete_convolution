@@ -28,6 +28,6 @@ Z = sumXY(X,Y,z_axis)
 
 plt.figure()
 plt.stem(Z['z'], Z['pZ']), plt.xlabel(r'$z$'), plt.ylabel(r'$p_Z$')
-plt.savefig('pdf.png', dpi = 300)
+plt.savefig('pmf.png', dpi = 300)
 
 
